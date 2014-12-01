@@ -10,4 +10,4 @@
   (e/info-dialog "nrepl response"
     (with-out-str (p/pprint data))))
 
-(evt/subscribe :ccw.repl.response collect-responses)
+(evt/subscribe :ccw.repl.response #'collect-responses)
