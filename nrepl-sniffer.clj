@@ -1,4 +1,5 @@
 (ns nrepl-sniffer
+  "Demonstrates how to react to repl results sent back to ccw"
   (:require [ccw.eclipse     :as e]
             [ccw.events      :as evt]
             [clojure.pprint  :as p]))

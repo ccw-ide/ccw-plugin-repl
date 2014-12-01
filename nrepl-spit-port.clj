@@ -1,4 +1,8 @@
 (ns nrepl-spit-port
+  "Adds two listeners to nrepl server launched events.
+   'spit-globally spits the nrepl port to ~/.nrepl file
+   'spit-per-project spits the nrepl port to the corresponding
+   project's folder in an .nrepl file"
   (:require [ccw.core.launch :as l]
             [clojure.java.io :as io]
             [ccw.eclipse     :as e]))

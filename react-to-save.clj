@@ -1,4 +1,5 @@
 (ns react-to-save
+  "Reacts to file saves by sending some command via the active REPL."
   (:require [ccw.eclipse     :as e]
             [ccw.events      :as evt]
             [clojure.pprint  :as p]

@@ -22,7 +22,26 @@ It is recommended to layout User Plugins inside this folder by mirroring Github'
 
 ## Usage
 
-[TODO]
+### nrepl-sniffer.clj
+
+Demonstrates how to react to repl results sent back to ccw by subscribing to the :ccw.repl.response event topic.
+
+### nrepl-spit-port.clj
+
+Adds two listeners to nrepl server launched events.
+- `spit-globally` spits the nrepl port to ~/.nrepl file
+- `spit-per-project` spits the nrepl port to the corresponding project's folder in an .nrepl file
+
+### react-to-save.clj
+
+Reacts to file saves by sending some command via the active REPL.
+
+### repl-keybindings.clj
+
+Command(s) for working with the REPL
+
+- `reset-components`: Reset Components System by calling (user/reset) via the REPL. Keybinding: `Cmd+U R`
+
 
 ## License
 
