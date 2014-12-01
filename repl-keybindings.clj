@@ -5,4 +5,4 @@
  
 (defcommand reset-components "Reset Components System")
 (defkeybinding reset-components "Cmd+U R")
-(defhandler reset-components (fn [_] repl/send '(user/reset)))
+(defhandler reset-components (fn [_] (repl/send '(user/reset))))
