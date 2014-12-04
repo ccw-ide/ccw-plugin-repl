@@ -3,6 +3,6 @@
   (:require [ccw.api.repl :as repl]
             [ccw.e4.dsl   :refer :all]))
  
-(defcommand reset-components "Reset Components System")
-(defkeybinding reset-components "Cmd+U R")
-(defhandler reset-components (fn [_] (repl/send '(user/reset))))
+
+(defcommand reset-components "Reset Components System" "Cmd+U R"
+  [context] (repl/send '(user/reset)))
