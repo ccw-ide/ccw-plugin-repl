@@ -8,7 +8,7 @@ This plugin's state is work in progress.
 
 The `~/.ccw/` folder is where Counterclockwise searches for User Plugins.
 
-It is recommended to layout User Plugins inside this folder by mirroring Github's namespacing. So if you clone laurentpetit/ccw-plugin-repl, you should do the following:
+It is recommended to layout User Plugins inside this folder by mirroring Github's namespacing. So if you clone ccw-ide/ccw-plugin-repl, you should do the following:
 
 - Create a folder named `~/.ccw/laurentpetit/`
 - Clone this project from `~/.ccw/laurentpetit/`
